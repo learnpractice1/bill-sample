@@ -24,7 +24,9 @@ const Add_product = () => {
   //   }
   // };
   const handleSubmit =()=>{
-    console.log("hello");
+    event.preventDefault();
+    console.log(product)
+    console.log(price)
   }
 
   return (
