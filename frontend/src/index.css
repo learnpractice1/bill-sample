@@ -1,5 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 body{
-    background-color: #497dff;
+    background-color: var(--bg);
+}
+@theme{
+    --color-tiffin-bg: var(--bg);
+    --color-tiffin-secondary-bg: var(--secondary-bg);
+    --color-tiffin-text: var(--text);
+    --color-tiffin-button: var(--button);
+    --color-tiffin-button-hover: var(--button-hover);
+    --color-tiffin-button-text: var(--button-text);
+    --color-tiffin-accent: var(--accent);
+    --color-tiffin-border: var(--border);
+    --color-tiffin-input-bg: var(--input-bg);
+    --color-tiffin-input-text: var(--input-text);
+    --color-tiffin-placeholder: var(--placeholder);
+    --color-tiffin-success: var(--success);
+    --color-tiffin-error: var(--error);
+    --color-tiffin-text-hover: var(--text-hover);
+    --color-actionperform-button: var(--actionperform-button);
+    --color-actionperform-button-hover: var(--actionperform-button-hover);
+
+}
+
+:root{
+    --bg: rgb(248, 244, 240);
+    --secondary-bg: rgb(255, 255, 255);
+    --text: rgb(51, 51, 51);
+    --button: rgb(230, 126, 34);
+    --button-hover: rgb(211, 84, 0);
+    --button-text: rgb(255, 255, 255);
+    --accent: rgb(242, 196, 95);
+    --border: rgb(221, 221, 221);
+    --input-bg: rgb(255, 255, 255);
+    --input-text: rgb(85, 85, 85);
+    --placeholder: rgb(153, 153, 153);
+    --success: rgb(39, 174, 96);
+    --error: rgb(235, 87, 87);
+    --text-hover: rgb(229, 231, 235);
+    --actionperform-button:rgb(59, 130, 246);
+    --actionperform-button-hover:rgb(37, 99, 235);
+    
+}
+.dark{
+    --bg: rgb(18, 18, 18);
+    --secondary-bg: rgb(30, 30, 30);
+    --text: rgb(238, 238, 238);
+    --button: rgb(242, 196, 95);
+    --button-hover: rgb(230, 126, 34);
+    --button-text: rgb(51, 51, 51);
+    --border: rgb(85, 85, 85);
+    --input-bg: rgb(51, 51, 51);
+    --input-text: rgb(238, 238, 238);
+    --placeholder: rgb(119, 119, 119);
+    --success: rgb(46, 204, 113);
+    --error: rgb(229, 57, 53);
+    --text-hover: rgb(45, 45, 45);
+    --actionperform-button:rgb(24, 83, 159);
+    --actionperform-button-hover:rgb(19, 68, 131);
+    
+    
 }

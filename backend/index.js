@@ -9,12 +9,10 @@ const pool = require('./config/db'); // Initialize Database connection
 const cors = require('cors');
 const morgan = require('morgan');
 
-
-
-console.log(process.env.DB_NAME
-);
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "http://localhost:5173", // Frontend UR
+}));
 app.use(morgan('dev'));
 app.use(express.json()); // Enable parsing of JSON request bodies
 

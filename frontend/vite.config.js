@@ -9,10 +9,10 @@ export default defineConfig({
       theme: {
         extend: {
           colors: {
-            indigo: {
-              600: '#5a67d8',
-              700: '#4c51bf',
-            },
+            'tiffin-bg': '#F8F4F0',
+            'tiffin-text': '#333',
+            'tiffin-button': '#E67E22',
+            'tiffin-button-hover': '#D35400',
           },
           fontFamily: {
             sans: ['Inter', 'sans-serif'],

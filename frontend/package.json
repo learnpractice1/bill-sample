@@ -11,8 +11,14 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
+    "@tanstack/react-query": "^5.66.9",
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-error-boundary": "^5.0.0",
+    "react-router-dom": "^7.1.5",
+    "react-toastify": "^11.0.5",
     "tailwindcss": "^4.0.6"
   },
   "devDependencies": {
